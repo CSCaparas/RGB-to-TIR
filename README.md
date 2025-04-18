@@ -4,13 +4,15 @@ Our model waas specifically trained for the purpose of monitoring plant health
 
 All code is modified from code provided by Emma Wadsworth: https://github.com/apisdn 
 
-Data Capture Code:
+# Code:
+
+### Data Capture:
 
   combined.py opens a live side-by-side video feed of the RGB camera and thermal camera. This was used to calibrate/align the cameras prior to data capture.
 
   thermography.py is used to simultaneously capture the RGB and thermal images used in the dataset. RGB returned as png files; thermal returnes as csv files.
 
-Pix2Pix Model:
+### Pix2Pix Model:
 
   model.py contains the main pix2pix code, including how the loss is being calcuated
   
@@ -20,11 +22,11 @@ Pix2Pix Model:
   
   run_experiment_CC.py contains the primary training and validation loops for running the model (this is the code that will actually be run) 
 
-Ground Truth Code:
+### Ground Truth:
   
   lookatthermal_CC.py converts csv files (captured by the thermal camera) into a contrast thermal image. We used this code to visualize the groundtuth images for comaprison to the generated thermal images. 
 
-Model Results
+# Model Results
   
   Dataset: Paired RGB (png) and thermal (csv) images used to train pix2pix model 
   
