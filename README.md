@@ -1,5 +1,5 @@
 # RGB2TIR
-Code used to create pix2pix-based machine learning model for RGB to thermal image translation, and results from our trained model.
+Code used to create pix2pix-based machine learning model for RGB to thermal image translation, and the results from our trained model.
 Our model waas specifically trained for the purpose of monitoring plant health
 
 All code is modified from code provided by Emma Wadsworth: https://github.com/apisdn 
