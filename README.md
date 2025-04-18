@@ -4,7 +4,7 @@ Our model waas specifically trained for the purpose of monitoring plant health
 
 All code is modified from code provided by Emma Wadsworth: https://github.com/apisdn 
 
-# Code:
+# Code
 
 ### Data Capture:
 
