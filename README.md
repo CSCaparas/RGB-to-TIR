@@ -46,9 +46,11 @@ lookatthermal_CC.py* converts a single csv file (captured by the thermal camera)
 
 ### Comparison Scores: 
 
-MSE_SSIM.py compares every generated .tiff file to its groundtruth image (as generated from the .csv file) to calculate a MSE and SSIM score. Scores are compiled in an excel for each individual pair as well as calculating the mean and median scores for the entire (validation) set.  
+MSE_SSIM.py compares every generated .tiff file to its groundtruth image (as generated from the .csv file) to calculate a MSE and SSIM score. Scores are compiled in an excel for each individual pair as well as calculating the mean and median scores for the entire (validation) set. No images generated or saved. 
 
-MSE_SSIM_single.py compares a single (specified) generated .tiff file to its groundtruth image (as generated from the .csv file) to calculate a MSE and SSIM score. Generated and groundtruth image are plotted side by side with MSE and SSIM scores. This code does not automatically save the generated plot, and was used to look at specific pairs (such as the image pairs with the highest or lowest SSIM or MSE scores)   
+MSE_SSIM_all.py; all generated .tiff files are plotted side by side to their groundtruth images (as generated from the .csv file)with MSE and SSIM scores and saved.
+
+MSE_SSIM_single.py; same as "all" version, but let's you look at a single image pair at a time. Generated side by side image is not automatically saved. 
 
 # Dataset & Results
   
