@@ -20,6 +20,8 @@ Code files with a * are modified from code provided by Emma Wadsworth: https://g
 
   thermography.py* is used to simultaneously capture the RGB and thermal images used in the dataset. RGB returned as png files; thermal returnes as csv files.
 
+  changefilename_paired.py 
+
 ### Pix2Pix:
 
   model.py* contains the main pix2pix code, including how the loss is being calcuated
