@@ -5,12 +5,15 @@ Also includes some of the dataset and results from our trained model.
 The intention of building this model was to test the potential of monitoring plant health using predicted thermal data from RGB images
 
 Model:
-
   Training set size: 2137 
-  
+
   Validation set size: 916 
   
-  Epochs: 100 
+  Epochs: 100
+
+  Mean MSE: 5792
+
+  Mean SSIM: 0.422
 
 Code files with a * are modified from code provided by Emma Wadsworth: https://github.com/apisdn 
 
