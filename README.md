@@ -6,7 +6,7 @@ The intention of building this model was to test the potential of monitoring pla
 
 Code files with a * are modified from code provided by Emma Wadsworth: https://github.com/apisdn 
 
-# Trained model Info:
+# Trained Model Info
 
   Training set size: 2137 
 
