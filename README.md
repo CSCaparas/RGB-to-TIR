@@ -18,7 +18,7 @@ Code files with a * are modified from code provided by Emma Wadsworth: https://g
 
   combined.py* opens a live side-by-side video feed of the RGB camera and thermal camera. This was used to calibrate/align the cameras prior to data capture.
 
-  thermography.py* is used to simultaneously capture the RGB and thermal images used in the dataset. RGB returned as png files; thermal returnes as csv files.
+  thermography.py* is used to simultaneously capture the RGB and thermal images used in the dataset. RGB returned as png files; thermal returned as csv files.
 
   changefilename_paired.py was used to compile all captured RGB and thermal images (that we wanted to include in our dataset) into a single folder and assign each pair a unique file name.
 
