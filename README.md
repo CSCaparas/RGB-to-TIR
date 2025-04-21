@@ -1,4 +1,4 @@
-# RGB2TIR
+# RGB-to-TIR
 Code used to create pix2pix-based machine learning model for RGB to thermal image translation.
 Also includes some of the dataset and results from our trained model.
 
