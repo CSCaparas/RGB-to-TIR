@@ -4,7 +4,8 @@ Also includes some of the dataset and results from our trained model.
 
 The intention of building this model was to test the potential of monitoring plant health using predicted thermal data from RGB images
 
-Model:
+Trained model Info:
+
   Training set size: 2137 
 
   Validation set size: 916 
