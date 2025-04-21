@@ -1,7 +1,11 @@
 # RGB2TIR
 Code used to create pix2pix-based machine learning model for RGB to thermal image translation.
-Dataset and results from our trained model.
-Our model waas specifically trained for the purpose of monitoring plant health
+Also includes some of the dataset and results from our trained model.
+
+Model:
+  Training set size: 2137 
+  Validation set size: 916 
+  Epochs: 100 
 
 Code files with a * are modified from code provided by Emma Wadsworth: https://github.com/apisdn 
 
