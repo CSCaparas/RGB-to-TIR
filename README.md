@@ -4,7 +4,9 @@ Also includes some of the dataset and results from our trained model.
 
 The intention of building this model was to test the potential of monitoring plant health using predicted thermal data from RGB images
 
-Trained model Info:
+Code files with a * are modified from code provided by Emma Wadsworth: https://github.com/apisdn 
+
+# Trained model Info:
 
   Training set size: 2137 
 
@@ -15,8 +17,6 @@ Trained model Info:
   Mean MSE: 5792
 
   Mean SSIM: 0.422
-
-Code files with a * are modified from code provided by Emma Wadsworth: https://github.com/apisdn 
 
 # Code
 
