@@ -20,7 +20,7 @@ Code files with a * are modified from code provided by Emma Wadsworth: https://g
 
   thermography.py* is used to simultaneously capture the RGB and thermal images used in the dataset. RGB returned as png files; thermal returnes as csv files.
 
-  changefilename_paired.py 
+  changefilename_paired.py was used to compile all captured RGB and thermal images (that we wanted to include in our dataset) into a single folder and assign each pair a unique file name.
 
 ### Pix2Pix:
 
